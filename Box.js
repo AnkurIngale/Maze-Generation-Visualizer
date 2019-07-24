@@ -6,7 +6,7 @@ function Box(x,y){
     this.wall = [true , true];
     this.visited = 0;
     
-    this.drawWall = function(){
+    this.drawWalls = function(){
       
         // color blue if visited but not backtracked
         if(this.visited === 1){
